@@ -126,6 +126,22 @@ nav a:hover {
 .imagen img {
     width: 100%;
     height: 400px;
+    object-fit: cover;
+    /* Marco estilo arcade retro */
+    border: 4px solid #ffcc00;
+    border-radius: 8px;
+    box-shadow: 
+        0 0 0 2px rgba(0,0,0,0.8), /* Borde interno oscuro */
+        0 0 20px rgba(255, 204, 0, 0.6), /* Glow exterior */
+        inset 0 0 15px rgba(0,0,0,0.5); /* Sombra interior */
+    transition: all 0.3s ease;
+}
+
+.imagen img:hover {
+    transform: scale(1.02) rotate(1deg);
+    box-shadow: 
+        0 0 0 2px rgba(0,0,0,0.8),
+        0 0 30px rgba(255, 204, 0, 0.8);
 }
 
 .texto {
