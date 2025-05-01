@@ -372,7 +372,6 @@ nav a:hover {
     padding: 0 15px;
     box-sizing: border-box;
 }
-
 @media (max-width:850px){
     header {
         flex-direction: column;
