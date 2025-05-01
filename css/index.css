@@ -22,6 +22,7 @@ a {
 header {
     width: 100%;
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -32,11 +33,21 @@ header {
     font-size: 20px;
     background-color: transparent;
     transition: all .5s ease;
+
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;    
+    position: fixed;
+    transition: all .5s ease;
+    font-size: 20px;
+
 }
 
 header a {
     color:#fff;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -48,6 +59,14 @@ header a {
     display: flex;
     align-items: center;
     gap: 10px; /* Espacio entre logo y botón */
+}
+
+
+
+
+.logo {
+    display: flex;    
+    align-items: center;
 }
 
 
@@ -240,6 +259,7 @@ nav a:hover {
     height: 200px;
     margin-top: 20px;
 }
+
 .menu-toggle {
     display: none;
     font-size: 28px;
@@ -351,4 +371,14 @@ nav a:hover {
     justify-content: space-between;
     padding: 0 15px;
     box-sizing: border-box;
-}
+
+
+@media (max-width:850px){
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}}
