@@ -15,7 +15,7 @@
             <p>Menu</p>
         </div>
         <div class="opciones-menu">
-            <a href="#Comidas">
+            <a href="#Entradas">
                 <img src="Imagenes/Comida2.PNG" alt="Comidas">
                 <p>Comidas</p>
             </a>

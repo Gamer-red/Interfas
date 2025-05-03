@@ -52,6 +52,10 @@ a {
     background-blend-mode: darken;
 }
 
+
+html {
+    scroll-behavior: smooth;
+  }
 .fondo p {
     width: 85%;
     text-align: center;
