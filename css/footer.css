@@ -1,0 +1,91 @@
+/* footer.css */
+/* Estilos específicos del footer */
+.pie-pagina {
+    position: relative;
+    width: 92.5%;
+    background-color: rgba(64, 64, 64);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grupo {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.grupo p {
+    margin-bottom: -5px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33%;
+    height: 100%;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.redes {
+    display: flex;
+    position: relative;
+    margin: 10px -50px;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icono {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.mapa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa iframe {
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+/* Responsive */
+@media (max-width: 850px) {
+    .pie-pagina {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .grupo {
+        flex-direction: column;
+    }
+
+    .caja {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .mapa iframe {
+        width: 100%;
+    }
+
+    .redes {
+        margin-left: 0;
+    }
+}

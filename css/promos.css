@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-body{
+body {
     min-height: 200vh;
     margin: 0;
     padding: 0;
@@ -19,65 +19,8 @@ a {
     font-weight: 600;
 }
 
-/*:: Navbar ::*/
-header {
-    width: 100%;
-    display: flex;
-    min-height: 70px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;    
-    position: fixed;
-    transition: all .5s ease;
-    font-size: 20px;
-}
-
-header a {
-    color:#fff;
-}
-
-.logo {
-    display: flex;    
-    align-items: center;
-}
-
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-}
-
-.sticky {
-    background-color: rgba(15,15,15,0.8);
-}
-
-.sticky a {
-    color: #fff;
-}
-
-nav {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #fff;
-    display: block;
-    float: right;
-    padding: 10px;
-    text-decoration: none;
-    transition: all .5s ease;
-    text-shadow: 
-    -0.5px -0.5px 0 black,
-    0.5px -0.5px 0 black,
-    -0.5px  0.5px 0 black,
-     0.5px  0.5px 0 black;
-}
-
-nav a:hover {
-    color: rgba(222,222,222);
-}
 
 /*:: Body ::*/
-
 .contenedor {
     width: 100%;
     display: flex;
@@ -139,6 +82,8 @@ nav a:hover {
 .card img {
     width: 250px;
     height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .card p {
@@ -147,76 +92,52 @@ nav a:hover {
     text-align: justify;
 }
 
-/*:: Footer ::*/
-.pie-pagina {
-    position: relative;
-    width: 92.5%;
-    background-color: rgba(64,64,64);
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.grupo {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.grupo p {
-    margin-bottom: -5px;
-}
-
-.caja {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 33%;
-    height: 100%;
-    color: #fff;
-    text-align: left;
-    margin-top: 0;
-    margin-right: 5px;
-}
-
-.redes {
-    display: flex;
-    position: relative;
-    margin: 10px -50px;
-}
-
-.icon-elem {
-    list-style: none;
-}
-
-.icono {
-    font-size: 20px;
-    display: inline-block;
-    margin: 0 10px;
-    color: #fff;
-}
-
-.mapa {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.mapa iframe {
-    width: 90%;
-    height: 200px;
-    margin-top: 20px;
-}
-
-@media (max-width:850px){
-    header {
-        flex-direction: column;
+/* Responsive para móviles */
+@media (max-width: 850px) {
+    .fondo {
+        height: 200px;
+        font-size: 28px;
     }
+    
+    .frase {
+        width: 90%;
+        font-size: 22px;
+    }
+    
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .card {
+        width: 90%;
+    }
+    
+    .card img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    
+    .card p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
 
-    nav {
-        padding: 10px 0px;
+@media (max-width: 480px) {
+    .fondo {
+        height: 150px;
+        font-size: 24px;
+    }
+    
+    .frase {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .card h1 {
+        font-size: 20px;
     }
 }

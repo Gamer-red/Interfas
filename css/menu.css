@@ -19,62 +19,6 @@ a {
     font-weight: 600;
 }
 
-header {
-    width: 100%;
-    display: flex;
-    min-height: 70px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;    
-    position: fixed;
-    transition: all .5s ease;
-    font-size: 20px;
-}
-
-header a {
-    color:#fff;
-}
-
-.logo {
-    display: flex;    
-    align-items: center;
-}
-
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-}
-
-.sticky {
-    background-color: rgba(15,15,15,0.8);
-}
-
-.sticky a {
-    color: #fff;
-}
-
-nav {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #fff;
-    display: block;
-    float: right;
-    padding: 10px;
-    text-decoration: none;
-    transition: all .5s ease;
-    text-shadow: 
-    -0.5px -0.5px 0 black,
-    0.5px -0.5px 0 black,
-    -0.5px  0.5px 0 black,
-     0.5px  0.5px 0 black;
-}
-
-nav a:hover {
-    color: rgba(222,222,222);
-}
-
 .contenedor {
     width: 100%;
     display: flex;
@@ -178,80 +122,6 @@ nav a:hover {
     text-align: center;
 }
 
-
-
-.pie-pagina {
-    position: relative;
-    width: 92.5%;
-    background-color: rgba(64,64,64);
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.grupo {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.grupo p {
-    margin-bottom: -5px;
-}
-
-.caja {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 33%;
-    height: 100%;
-    color: #fff;
-    text-align: left;
-    margin-top: 0;
-    margin-right: 5px;
-}
-
-.redes {
-    display: flex;
-    position: relative;
-    margin: 10px -50px;
-}
-
-.icon-elem {
-    list-style: none;
-}
-
-.icono {
-    font-size: 20px;
-    display: inline-block;
-    margin: 0 10px;
-    color: #fff;
-}
-
-.mapa {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.mapa iframe {
-    width: 90%;
-    height: 200px;
-    margin-top: 20px;
-}
-
-@media (max-width:850px){
-    header {
-        flex-direction: column;
-    }
-
-    nav {
-        padding: 10px 0px;
-    }
-}
 .opciones-menu {
     width: 90%;
     margin: 40px 0;
@@ -312,9 +182,48 @@ nav a:hover {
         padding: 0;
         text-align: center;
     }
-
- 
 }
 
+@media (max-width: 600px) {
+    .fondo {
+        font-size: 28px;
+        height: 250px;
+    }
 
+    .opciones-menu {
+        gap: 30px;
+    }
 
+    .opciones-menu a img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .contenido {
+        padding: 0;
+        text-align: center;
+    }
+
+    .imagen img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .seccion {
+        font-size: 24px;
+        padding: 10px 15px;
+    }
+}

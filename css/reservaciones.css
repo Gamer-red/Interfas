@@ -13,67 +13,9 @@ body{
     font-family: sans-serif;
     background-color: rgba(20, 20, 20);
 }
-
 a {
     text-decoration: none;
     font-weight: 600;
-}
-
-/*:: Navbar ::*/
-header {
-    width: 100%;
-    display: flex;
-    min-height: 70px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;    
-    position: fixed;
-    transition: all .5s ease;
-    font-size: 20px;
-}
-
-header a {
-    color:#fff;
-}
-
-.logo {
-    display: flex;    
-    align-items: center;
-}
-
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-}
-
-.sticky {
-    background-color: rgba(15,15,15,0.8);
-}
-
-.sticky a {
-    color: #fff;
-}
-
-nav {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #fff;
-    display: block;
-    float: right;
-    padding: 10px;
-    text-decoration: none;
-    transition: all .5s ease;
-    text-shadow: 
-    -0.5px -0.5px 0 black,
-    0.5px -0.5px 0 black,
-    -0.5px  0.5px 0 black,
-     0.5px  0.5px 0 black;
-}
-
-nav a:hover {
-    color: rgba(222,222,222);
 }
 
 /*:: Body ::*/
@@ -141,7 +83,6 @@ nav a:hover {
 
 .formulario {
     width: 40%;
-
 }
 
 form {
@@ -171,76 +112,74 @@ form label {
     display: none;
 }
 
-/*:: Footer ::*/
-.pie-pagina {
-    position: relative;
-    width: 92.5%;
-    background-color: rgba(64,64,64);
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.grupo {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.grupo p {
-    margin-bottom: -5px;
-}
-
-.caja {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 33%;
-    height: 100%;
-    color: #fff;
-    text-align: left;
-    margin-top: 0;
-    margin-right: 5px;
-}
-
-.redes {
-    display: flex;
-    position: relative;
-    margin: 10px -50px;
-}
-
-.icon-elem {
-    list-style: none;
-}
-
-.icono {
-    font-size: 20px;
-    display: inline-block;
-    margin: 0 10px;
-    color: #fff;
-}
-
-.mapa {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.mapa iframe {
-    width: 90%;
-    height: 200px;
-    margin-top: 20px;
-}
-
 @media (max-width:850px){
-    header {
+    .restricciones {
         flex-direction: column;
     }
+    
+    .columna {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .formulario {
+        width: 80%;
+    }
+}
 
-    nav {
-        padding: 10px 0px;
+
+@media (max-width: 600px) {
+    .fondo {
+        height: 200px;
+        font-size: 28px;
+    }
+    
+    .fondo p {
+        width: 90%;
+    }
+    
+    .titulo {
+        width: 90%;
+        font-size: 24px;
+        margin: 30px 0;
+    }
+    
+    .restricciones p {
+        font-size: 20px;
+    }
+    
+    .columna {
+        font-size: 16px;
+    }
+    
+    .formulario {
+        width: 95%;
+    }
+    
+    form input, select {
+        font-size: 16px;
+    }
+    
+    /* Ajustes específicos para el formulario */
+    #reserva-mesa select, 
+    #reserva-local select {
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+    /* Mejor espaciado en móviles */
+    form label {
+        margin-top: 15px;
+    }
+    
+    input[type="submit"] {
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+    /* Ajustar opciones de hora para móviles */
+    #hora {
+        font-size: 14px;
     }
 }
