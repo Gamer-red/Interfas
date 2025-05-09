@@ -1,4 +1,6 @@
-
+<?php
+$current_page = basename($_SERVER['SCRIPT_NAME']);
+?>
 <header>
         <div class="header-inner">
             <div class="logo-container">
@@ -9,12 +11,12 @@
                 <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
             </div>
             <nav class="nav-links">
-                <a href="index.php">Inicio</a>
-                <a href="promos.php">Promociones</a>
-                <a href="reservaciones.php">Reservaciones</a>
-                <a href="menu.php">Menú</a>
-                <a href="juegos.php">Juegos</a>
+            <a href="reservaciones.php" class="<?= $current_page == 'reservaciones.php' ? 'active' : '' ?>">Reservaciones</a>
+            <a href="promos.php" class="<?= $current_page == 'promos.php' ? 'active' : '' ?>">Promociones</a>
+            <a href="menu.php" class="<?= $current_page == 'menu.php' ? 'active' : '' ?>">Menú</a>
+            <a href="juegos.php" class="<?= $current_page == 'juegos.php' ? 'active' : '' ?>">Juegos</a>
+            <a href="index.php" class="<?= $current_page == 'index.php' ? 'active' : '' ?>">Inicio</a>
             </nav>
         </div>
-        </div>
+        
 </header>

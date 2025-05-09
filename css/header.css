@@ -57,15 +57,39 @@ nav a {
     padding: 10px;
     text-decoration: none;
     transition: all 0.5s ease;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    position: relative;
     text-shadow: 
         -0.5px -0.5px 0 black,
         0.5px -0.5px 0 black,
         -0.5px 0.5px 0 black,
         0.5px 0.5px 0 black;
+    
 }
 
 nav a:hover {
-    color: rgba(222, 222, 222);
+    color: #ff01fd;
+}
+
+nav a.active {
+    color: #ff01fd;
+    font-weight: bold;
+}
+
+nav a.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 2px;
+    background-color: #ff01fd;
+    animation: underline 0.3s ease forwards;
+}
+
+@keyframes underline {
+    from { width: 0; }
+    to { width: 100%; }
 }
 
 .menu-toggle {

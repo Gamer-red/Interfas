@@ -37,7 +37,7 @@
              </div>
              <div class="card">
                  <img src="Imagenes/Promos/tigres-rayados.avif" alt="">
-                 <h1>Tigres/Rayados</h1>
+                 <h1>Clasico</h1>
                  <p>
                     Si juega el equipo local y traes tu playera el día del juego, pagas la mitad al 
                     mencionarlo en la entrada.

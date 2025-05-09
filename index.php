@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <?php include 'Componentes/header.php'; ?>
+    <?php 
+    include 'Componentes/header.php'; ?>
     <div class="contenedor">
         <div class="fondo">
             <p>Diviertete como en los aÑos 80's Y 90's</p>
         </div>
         <div class="bloque">
             <div class="imagen">
-                <img src="Imagenes/Inicio-Juegos.jpg" alt="">
+            <a href="juegos.php">
+                <img src="Imagenes/Inicio-Juegos.jpg" alt="Juegos">
+            </a>
             </div>
             <div class="texto">                
                 <h1>Juegos</h1>
