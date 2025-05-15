@@ -13,59 +13,67 @@
     include 'Componentes/header.php'; ?>
     <div class="contenedor">
         <div class="fondo">
-            <p>Diviertete como en los aÑos 80's Y 90's</p>
+            <p>Revive la diversion de los 80s y 90s</p>
         </div>
         <div class="bloque">
             <div class="imagen">
-            <a href="juegos.php">
-                <img src="Imagenes/Inicio-Juegos.jpg" alt="Juegos">
-            </a>
+                <a href="juegos.php">
+                    <img src="Imagenes/Inicio-Juegos.jpg" alt="Juegos">
+                </a>
             </div>
             <div class="texto">                
                 <h1>Juegos</h1>
                 <p>Tenemos una gran variedad de arcades, pinballs, consolas, etc. 
-                La diversion sera garantizada una vez que cruces esa puerta</p>
+                La diversion estará garantizada una vez que cruces esa puerta.</p>
             </div>
         </div>
         <div class="bloque">
             <div class="texto">                
                 <h1>Restaurante</h1>
-                <p>Ofrecemos una gran variedad de comidas para llenar ese estomago hambriento de tanto
-                    jugar, asi que te ofrecemos una gran variedad de comida tematica que te encantara</p>
+                <p>Ofrecemos una gran variedad de comidas para llenar ese estómago hambriento de tanto
+                    jugar. Te ofrecemos una selección de comida temática que te encantará.</p>
             </div>
             <div class="imagen">
-                <img src="Imagenes/Pikaburger.jpg" alt="">
+                <a href="menu.php">
+                    <img src="Imagenes/Pikaburger.jpg" alt="">
+                </a>  
             </div>
         </div>
         <div class="bloque">
             <div class="imagen">
-                <img src="Imagenes/Bebidas-Inicio.png" alt="">
+                <a href="menu.php">
+                   <img src="Imagenes/Bebidas-Inicio.png" alt="">
+                </a>
             </div>
             <div class="texto">                
                 <h1>Bar</h1>
-                <p>Si tienes ganar de beber para pasar el rato cun tus amigos, puedes pedir 
-                    de la gran variedad de bebidas tematicas que tenemos disponibles, que 
-                    tanto su sabor como su apariencia sera acorde al personaje</p>
+                <p>Si tienes ganas de beber para pasar el rato con tus amigos, puedes elegir 
+                    entre la gran variedad de bebidas temáticas que tenemos disponibles. 
+                    Tanto su sabor como su apariencia estarán inspirados en tus personajes favoritos.</p>
             </div>
         </div>
         <div class="bloque">
             <div class="texto">                
                 <h1>Celebra tu cumpleaños con nosotros</h1>
-                <p>Que tu cumpleaños sea una esperiencia inolvidable con nosotros, en donde 
-                    puedes jugar, comer y beber con tus seres queridos</p>
+                <p>Haz que tu cumpleaños sea una experiencia inolvidable con nosotros, donde 
+                    podrás jugar, comer y beber con tus seres queridos.</p>
             </div>
             <div class="imagen">
-                <img src="Imagenes/Festejo.jpg" alt="">
+                <a href="reservaciones.php">
+                   <img src="Imagenes/Festejo.jpg" alt="">
+                </a>
             </div>
         </div>
         <div class="bloque">
             <div class="imagen">
-                <img src="Imagenes/Promo-Inicio.jpg" alt="">
+                <a href="promos.php">
+                    <img src="Imagenes/Promo-Inicio.jpg" alt="">
+                </a>
             </div>
             <div class="texto">                
-                <h1>Promociones increibles</h1>
+                <h1>Promociones increíbles</h1>
                 <p>Ofrecemos muchas promociones para que no tengas ninguna excusa para no 
-                    venir y pasar un rato divertido</p>
+                    venir y pasar un rato divertido.</p>
             </div>
         </div>        
     </div>

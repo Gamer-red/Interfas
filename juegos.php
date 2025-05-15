@@ -14,9 +14,9 @@
         <div class="fondo">
             <p>Juegos</p>
         </div>
-            <div class="frase">
-            Diviertete al maximo con todas las opciones que tenemos para ti: 
-            </div>
+        <div class="frase">
+            Diviértete al máximo con todas las opciones que tenemos para ti:
+        </div>
         <div class="opciones">
             <a href="#Arcades">
                 <img src="Imagenes/Arcade.jpg" alt="">
@@ -28,9 +28,10 @@
             </a>
             <a href="#Familiares">
                 <img src="Imagenes/familiar.PNG" alt="">
-                <span>Familiar</span>
+                <span>Familiares</span>
             </a>
         </div>
+
         <div class="seccion" id="Arcades">
             Arcades
         </div>
@@ -45,7 +46,7 @@
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/arcade-Capcom vs SNK.jpg" alt="">
-                <p>Capcom vs SNK </p>
+                <p>Capcom vs SNK</p>
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/arcade-CHUNITHM.jpg" alt="">
@@ -57,7 +58,7 @@
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/arcade-Dragons Lair.jpg" alt="">
-                <p>Dragons Lair</p>
+                <p>Dragon's Lair</p>
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/arcade-Guitar Hero.jpg" alt="">
@@ -69,13 +70,14 @@
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/arcade-Mortal Kombat 2.jpg" alt="">
-                <p>Mortal Kombat 2</p>
+                <p>Mortal Kombat II</p>
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/arcade-Space Invaders.jpg" alt="">
                 <p>Space Invaders</p>
             </div>
         </div>
+
         <div class="seccion" id="Pinballs">
             Pinballs
         </div>
@@ -97,8 +99,9 @@
                 <p>Simpsons Pinball Party</p>
             </div>
         </div>
+
         <div class="seccion" id="Familiares">
-            Juegos Familiares
+            Juegos familiares
         </div>
         <div class="cards">
             <div class="card">
@@ -107,11 +110,11 @@
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/Pump it Up Phoenix online.jpg" alt="">
-                <p>Pump it Up Phoenix online</p>
+                <p>Pump it Up Phoenix Online</p>
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/Dance Dance Revolution A3 online.jpg" alt="">
-                <p>Dance Dance Revolution A3 online</p>
+                <p>Dance Dance Revolution A3 Online</p>
             </div>
             <div class="card">
                 <img src="Imagenes/Juegos/UNO gigante.jpg" alt="">
